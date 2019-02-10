@@ -1,0 +1,14 @@
+version: "3.2"
+
+services:
+  python:       
+    build: 
+      dockerfile: ./docker/Dockerfile
+      context: ./
+    image: docker_data_science
+    ports:
+      - "8888:8888"
+    command: 
+      jupyter notebook --no-browser --allow-root --notebook-dir=/app/notebooks --ip=0.0.0.0
+    volumes:
+      - .:/app
