@@ -7,7 +7,7 @@ This application is containerized using Docker, so running it is quite simple.
 
 - Ensure Docker is installed on your local system.
 
-- Clone the repo: ```git clone https://github.com/tradery/docker-data-science.git```
+- Clone the repo: ```git clone https://github.com/aminsshahab/Data-Science-With-Docker.git```
 
 **Inside the app directory:**
 - Build the container through Docker: ```docker-compose build```
